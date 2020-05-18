@@ -1,9 +1,9 @@
 body {
 	color: #dfdfdf;
 	font-family: arial;
-	max-width: 650px;
+	max-width: 70vw;
 	margin: auto auto;
-	padding: 0 50px;
+	padding: 0 5vw;
 	background-image: url("/img/back.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -20,60 +20,64 @@ body {
 
 footer {
 	color: #dfdfdf;
-	border-top: 2px solid #e7e7e7;
-	margin-top: 16px;
-	padding: 16px 0;
-	width: 500px;
+	border-top: 0.22vw solid #e7e7e7;
+	margin-top: 1.76vw;
+	padding: 1.76vw 0;
+	width: 55vw;
 }
 
 header {
-	margin-top: 16px;
-	margin-bottom: 50px;
+	margin-top: 1.76vw;
+	margin-bottom: 5.5vw;
 }
 h1 {
 	top: 5%;
-	font-size: 64px;
-	margin-bottom: 16px;
+	font-size: 7.05vw;
+	margin-bottom: 1.76vw;
 }
 
 header a {
 	color: #dfdfdf;
-	margin-right: 60px;
-	font-size: 30px;
+	margin-right: 6.6vw;
+	font-size: 3.3vw;
 	text-decoration: none;
 }
 
 .micro {
-	height: 265px;
+	height: 30vh;
 }
 .resize {
-	width: 200px;
+	width: 22.05vw;
 }
 
 p.foot {
 	color: rgb(255, 235, 235);
-	padding: 8px;
-	margin: 8px;
+	padding: 0.88vw;
+	margin: 0.88vw;
+	font-size: 2.1vw;
 }
 
 p.about {
 	color: rgb(255, 235, 235);
-	padding: 8px;
-	margin: 8px;
-	width: 400px;
+	padding: 0.88vw;
+	margin: 0.88vw;
+	width: 44.1vw;
+	font-size: 2.1vw;
 }
 
 input {
-	border: 1px solid #e9e9e9;
-	padding: 8px;
+	border: 0.11vw solid #e9e9e9;
+	padding: 0.88vw;
+	font-size: 2.1vw;
 }
 
 button {
 	cursor: pointer;
-	background-origin: 1px solid #e6e6e6;
+	background-origin: 0.11vw solid #e6e6e6;
 	background: #e6e6e6;
 	color: rgb(39, 39, 39);
-	padding: 8px;
+	padding: 0.88vw;
+	font-size: 2.1vw;
 }
 
 @import "compass/css3";
@@ -94,19 +98,21 @@ button {
 }
 
 .box {
-	margin-top: 16px;
-	margin-bottom: 50px;
-	width: 500px;
-	height: 30px;
-	left: -webkit-calc(50% - 250px);
+	margin-top: 1.76vw;
+	margin-bottom: 5.5vw;
+	width: 55vw;
+	height: 3.3vw;
+	left: -webkit-calc(50% - 27.56vw);
 	top: 20%;
-	border-radius: 2px;
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
-	border: 1px solid rgba(0, 0, 0, 0.483);
-	padding: 20px;
+	border-radius: 0.22vw;
+	box-shadow: 0 2.2vw 3.3vw rgba(0, 0, 0, 0.6);
+	border: 0.11vw solid rgba(0, 0, 0, 0.483);
+	padding: 2.2vw;
 	text-align: center;
 	box-sizing: border-box;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	font-size: 2.1vw;
+
+	text-shadow: 0 0.11vw 0.11vw rgba(0, 0, 0, 0.4);
 
 	display: table-cell;
 	vertical-align: middle;
@@ -114,19 +120,20 @@ button {
 }
 
 .mainBox {
-	margin-top: 16px;
-	margin-bottom: 50px;
-	width: 500px;
-	height: 30px;
-	left: -webkit-calc(50% - 250px);
+	margin-top: 1.76vw;
+	margin-bottom: 5.5vw;
+	width: 55vw;
+	height: 3.3vw;
+	left: -webkit-calc(50% - 27.56vw);
 	top: 20%;
-	border-radius: 2px;
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
-	border: 1px solid rgba(0, 0, 0, 0.438);
-	padding: 20px;
+	border-radius: 0.22vw;
+	box-shadow: 0 2.2vw 3.3vw rgba(0, 0, 0, 0.6);
+	border: 0.11vw solid rgba(0, 0, 0, 0.438);
+	padding: 0.22vw;
 	text-align: center;
 	box-sizing: border-box;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	text-shadow: 0 0.11vw 0.11vw rgba(0, 0, 0, 0.4);
+	font-size: 2.1vw;
 
 	display: table-cell;
 	vertical-align: middle;
