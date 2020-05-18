@@ -21,7 +21,10 @@ weatherForm.addEventListener("submit", (e) => {
 				data.temperature.description +
 				". It is currently " +
 				data.temperature.temperature +
-				"℃";
+				"℃. Though it feels like " +
+				data.temperature.feels_like +
+				"℃ and wind speed is " +
+				data.temperature.wind_speed;
 		});
 	});
 });

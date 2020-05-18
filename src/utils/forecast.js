@@ -18,6 +18,8 @@ const forecast = (lat, lon, callback) => {
 			callback(undefined, {
 				description: data.weather[0].description,
 				temperature: data.main.temp,
+				feels_like: data.main.feels_like,
+				wind_speed: data.wind.speed,
 			});
 		}
 	});
