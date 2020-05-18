@@ -30,7 +30,7 @@ app.get("", (req, res) => {
 app.get("/help", (req, res) => {
 	res.render("help", {
 		title: "Help Page",
-		para: "ya so this is the help page",
+		para: "ya, so this is the help page, But do you really need help??",
 		name: "Ritik",
 	});
 });
