@@ -8,23 +8,20 @@ weatherForm.addEventListener("submit", (e) => {
 	msgOne.textContent = "loading...";
 	msgTwo.textContent = "";
 	const location = search.value;
-	fetch("http://localhost:3000/weather?address=" + location).then(
-		(response) => {
-			response.json().then((data) => {
-				if (data.error) {
-					return (
-						(msgOne.textContent = data.error),
-						(msgTwo.textContent = "")
-					);
-				}
-				console.log(data);
-				msgOne.textContent = data.location;
-				msgTwo.textContent =
-					data.temperature.description +
-					". It is currently " +
-					data.temperature.temperature +
-					"℃";
-			});
-		}
-	);
+	fetch("/weather?address=" + location).then((response) => {
+		response.json().then((data) => {
+			if (data.error) {
+				return (
+					(msgOne.textContent = data.error), (msgTwo.textContent = "")
+				);
+			}
+			console.log(data);
+			msgOne.textContent = data.location;
+			msgTwo.textContent =
+				data.temperature.description +
+				". It is currently " +
+				data.temperature.temperature +
+				"℃";
+		});
+	});
 });
